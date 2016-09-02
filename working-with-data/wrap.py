@@ -7,7 +7,7 @@ def wrap(filename, delim):
  	string = ''
  	with open(filename) as file:
  		    string += file.read().strip()
- 	while string:
+ 	while string:n
  		s = string[:delim]
  		string = string[delim:]
  		print s
